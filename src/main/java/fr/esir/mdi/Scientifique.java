@@ -29,19 +29,17 @@ public class Scientifique {
             case 1:
                 System.out.println("COSINUS");
                 System.out.println("Veuillez choisir l'angle:");
-                Scanner cos = new Scanner(System.in);
-                Double angle = cos.nextDouble();
-                cos.close();
+                Double angle = scan.nextDouble();
                 System.out.println("Cosinus de l'angle : " + angle + " est : " + cosinus(angle));;
                 break;
 
             case 2:
                 System.out.println("PUISSANCE");
                 System.out.println("Veuillez choisir la base:");
-                Scanner pow = new Scanner(System.in);
-                int base = pow.nextInt();
-                int exposant = pow.nextInt();
-                pow.close();
+                int base = scan.nextInt();
+                System.out.println("Veuillez maintenant choisir l'exposant:");
+                int exposant = scan.nextInt();
+                scan.close();
                 System.out.println("Résultat de " + base + " puissance de " + exposant + " est : " + puissance(base, exposant));
                 break;
             default:
