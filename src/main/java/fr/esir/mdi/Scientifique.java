@@ -5,5 +5,6 @@ package fr.esir.mdi;
  */
 public class Scientifique {
     public static void main() {
+        System.out.println("Scientifique main");
     }
 }

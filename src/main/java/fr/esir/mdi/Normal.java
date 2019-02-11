@@ -6,5 +6,6 @@ package fr.esir.mdi;
 public class Normal {
     public static void main()
     {
+        System.out.println("Normal main");
     }
 }
